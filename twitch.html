@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="twitch.css" rel="stylesheet" type="text/css" />
+        <link rel="icon" href="https://i.pinimg.com/originals/87/30/24/8730248ec57cb04f4284ef6945e95de0.jpg" type="image/svg" sizes="16x16">
+        <script src="twitch.js" defer></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+
+    <div id = "titleBar">
+        <tr>
+            <td class = "titleTabs" id = "home" onclick= "showTab('home', 'homeTab');">Twitch-Analytics.com</td>
+            <!--Use HTML tables for the leaderboard-->
+            <td class = "titleTabs" id = "leaderboards" onclick= "showTab('leaderboards', 'leaderboardsTab');">Leaderboards</td>
+        </tr>
+    </div>
+    
+
+    <body>
+        <div id = homeTab>
+            <!-- info injected here-->
+        </div>
+        <div id = leaderboardsTab>
+            <table id = leaderboardsTable>
+                <th>Username</th>
+                <th>Cheered</th>
+                <!-- info injected here-->
+            </table>
+        </div>
+    </body>
+</html>

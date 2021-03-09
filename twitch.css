@@ -1,0 +1,43 @@
+body{
+    background-color: hsl(263, 100%, 50%);
+    font-family: 'Lucida Sans';
+    font-size: 20px;
+    margin: 0;
+}
+
+#titleBar{
+    font-size: 36px;
+    width: 100vw;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: whitesmoke;
+    height: 60px;
+    width: 100vw;
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-left: 15vw;
+    background-color: rgb(46, 0, 155);
+}
+
+.titleTabs{
+    display: inline-grid;
+    font-family:'Courier New', Courier, monospace;
+    color: whitesmoke;
+    position: center;
+}
+
+#homeTab{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-top: 5vw;
+    margin-left: 10vw;
+    display: inline-block;
+    border: 2px solid grey;
+    background-color: whitesmoke;
+}
+
+table, th, td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
