@@ -1,5 +1,5 @@
 body{
-    background-color: hsl(263, 100%, 50%);
+    background-color: whitesmoke;
     font-family: 'Lucida Sans';
     font-size: 20px;
     margin: 0;
@@ -33,11 +33,55 @@ body{
     margin-top: 5vw;
     margin-left: 10vw;
     display: inline-block;
-    border: 2px solid grey;
+    border: 5px solid rgb(161, 161, 161);
     background-color: whitesmoke;
 }
 
 table, th, td {
-    border: 1px solid grey;
+    border: 2px solid rgb(161, 161, 161);
     border-collapse: collapse;
+    background-color: whitesmoke;
+    width: 70vw;
+    text-align: center;
+}
+
+#leaderboardsTable{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*need to make this work*/
+#leaderboardsTable tr:nth-child(even){background-color: #f2f2f2!important;;}
+
+#leaderboardsTable tr:hover {background-color: #ddd!important;;}
+
+th, td {
+    padding: 10px;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    border: 3px solid rgb(161, 161, 161);
+    color:whitesmoke;
+    background-color: #4CAF50;
+    
+}
+
+td {
+    color:black;
+    padding: 10px;
+}
+
+.smallImage {
+    height: 16px;
+    width: 16px;
+    /*make the background same colour as the body background to blend in*/
+    background: hsl(263, 100%, 50%);
+}
+
+#resultsReturned{
+    text-align: center;
+    
 }
